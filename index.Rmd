@@ -1,0 +1,11 @@
+--- 
+title: "300 Bài code data"
+author: "Lê Huỳnh Đức"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+description: "300 Bài code data"
+---
+
+# Lời nói đầu {-}
