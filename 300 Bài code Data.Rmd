@@ -1,3 +1,17 @@
+--- 
+title: "300 Bài code data"
+author: "Lê Huỳnh Đức"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+description: "300 Bài code data"
+---
+
+# Lời nói đầu {-}
+
+<!--chapter:end:index.Rmd-->
+
 # (PART) Bài tập {-}
 # Nhập môn Python
 
@@ -144,3 +158,27 @@ def find(a, b):
 </p>
 
 ---
+
+<!--chapter:end:posts/01-Nhập_môn_Python.Rmd-->
+
+---
+title: "Habits"
+output:
+  html_document:
+    toc: true
+    number_sections: true
+---
+
+# ABC
+
+```markdown
+```{r, class.source="tabset"}
+
+# Tab 1
+Nội dung của tab 1
+
+# Tab 2
+Nội dung của tab 2
+
+<!--chapter:end:posts/02-Test.Rmd-->
+

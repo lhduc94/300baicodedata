@@ -8,12 +8,11 @@ output:
 
 # ABC
 
-## Quarterly Results {.tabset .tabset-fade .tabset-pills}
+```markdown
+```{r, class.source="tabset"}
 
-### By Product
+# Tab 1
+Nội dung của tab 1
 
-(tab content)
-
-### By Region
-
-(tab content)
+# Tab 2
+Nội dung của tab 2
