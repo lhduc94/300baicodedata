@@ -72,7 +72,7 @@ def findBCNN(a, b):
 
 Viết hàm tìm Giai thừa của một số `n` theo công thức
 
-$n! = 1 * 2 * 3 * .. * (n-1) * n$
+$n! = 1 \times 2 \times 3 \times .. \times (n-1) \times n$
 
 ```python
 def findGT(n):
