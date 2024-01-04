@@ -1,6 +1,4 @@
-# (PART) Bài tập {-}
 # Nhập môn Python
-
 
 ## UCLN
 
