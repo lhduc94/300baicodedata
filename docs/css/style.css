@@ -18,7 +18,9 @@ pre code {
 p code {
   white-space: inherit;
 }
-
+.book .book-body .page-wrapper .page-inner section.normal table {
+  border:3px solid #108d4e;
+}
 .book .book-body .page-wrapper .page-inner section.normal pre {
   border: 1px solid #c9c9c9;
   box-shadow: 1px 1px 1px #d8d8d8;
