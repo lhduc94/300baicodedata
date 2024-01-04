@@ -5,12 +5,18 @@
 **Bài 1.1**
 
 Viết hàm tìm Ước chung lớn nhất của hai số `a`, `b`
-```{python eval=FALSE, collapse=TRUE}
+
+<details><summary>CLICK ME</summary>
+<p>
+
+```python
 def findUCLN(a, b):
     ..
     ..
     return __
 ```
+
+</p></details>
 
 Test case:
 
