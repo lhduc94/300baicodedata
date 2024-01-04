@@ -2,7 +2,7 @@
 
 ## UCLN
 
-Viết hàm tìm Ước chung lớn nhất của hai số `a`, `b`
+Viết hàm tìm Ước chung lớn nhất của hai số  nguyên dương `a`, `b`
 
 
 ```python
@@ -31,7 +31,6 @@ import math
 def findUCLN(a, b):
     return math.gcd(a, b)
 ```
-
 </p></details>
 
 ---
@@ -39,7 +38,7 @@ def findUCLN(a, b):
 
 ## BCNN
 
-Viết hàm tìm Bội chung nhỏ nhất của hai số `a`, `b`
+Viết hàm tìm Bội chung nhỏ nhất của hai số nguyên dương `a`, `b`
 
 ```python
 def findBCNN(a, b):
@@ -65,7 +64,7 @@ def findBCNN(a, b):
     answer = a * b // findUCLN(a, b)
     return answer
 ```
-</p></detail>
+</p></details>
 
 ---
 
@@ -138,7 +137,20 @@ def find(a, b):
             answer.append(i)
     return answer
 ```
-
-</p>
+</p></details>
 
 ---
+
+## PARSE_STRING_01
+
+**Mô tả**
+
+Viết một hàm nhận đầu vào là một danh sách các số nguyên dưới dạng chuỗi và đầu ra là một danh sách
+
+**Test case**
+
+|Ví dụ|Kết quả|
+|:--|:----------|
+|`parseString("[1, 2, 3, 4, 5]")`|[1, 2, 3, 4, 5]|
+|`parseString("[]")`|[]|
+

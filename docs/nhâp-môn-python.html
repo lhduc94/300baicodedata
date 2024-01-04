@@ -150,6 +150,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="1.2" data-path="nhâp-môn-python.html"><a href="nhâp-môn-python.html#bcnn"><i class="fa fa-check"></i><b>1.2</b> BCNN</a></li>
 <li class="chapter" data-level="1.3" data-path="nhâp-môn-python.html"><a href="nhâp-môn-python.html#giai_thua"><i class="fa fa-check"></i><b>1.3</b> GIAI_THUA</a></li>
 <li class="chapter" data-level="1.4" data-path="nhâp-môn-python.html"><a href="nhâp-môn-python.html#chia_cho_5"><i class="fa fa-check"></i><b>1.4</b> CHIA_CHO_5</a></li>
+<li class="chapter" data-level="1.5" data-path="nhâp-môn-python.html"><a href="nhâp-môn-python.html#parse_string_01"><i class="fa fa-check"></i><b>1.5</b> PARSE_STRING_01</a></li>
 </ul></li>
 <li class="part"><span><b>II Bài giải</b></span></li>
 <li class="chapter" data-level="2" data-path="abc.html"><a href="abc.html"><i class="fa fa-check"></i><b>2</b> ABC</a></li>
@@ -177,7 +178,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h1><span class="header-section-number">Chương 1</span> Nhập môn Python<a href="nhâp-môn-python.html#nhâp-môn-python" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <div id="ucln" class="section level2 hasAnchor" number="1.1">
 <h2><span class="header-section-number">1.1</span> UCLN<a href="nhâp-môn-python.html#ucln" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Viết hàm tìm Ước chung lớn nhất của hai số <code>a</code>, <code>b</code></p>
+<p>Viết hàm tìm Ước chung lớn nhất của hai số nguyên dương <code>a</code>, <code>b</code></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="nhâp-môn-python.html#cb1-1" tabindex="-1"></a><span class="kw">def</span> findUCLN(a, b):</span>
 <span id="cb1-2"><a href="nhâp-môn-python.html#cb1-2" tabindex="-1"></a>    ..</span>
 <span id="cb1-3"><a href="nhâp-môn-python.html#cb1-3" tabindex="-1"></a>    ..</span>
@@ -216,7 +217,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="bcnn" class="section level2 hasAnchor" number="1.2">
 <h2><span class="header-section-number">1.2</span> BCNN<a href="nhâp-môn-python.html#bcnn" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Viết hàm tìm Bội chung nhỏ nhất của hai số <code>a</code>, <code>b</code></p>
+<p>Viết hàm tìm Bội chung nhỏ nhất của hai số nguyên dương <code>a</code>, <code>b</code></p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="nhâp-môn-python.html#cb3-1" tabindex="-1"></a><span class="kw">def</span> findBCNN(a, b):</span>
 <span id="cb3-2"><a href="nhâp-môn-python.html#cb3-2" tabindex="-1"></a>    ..</span>
 <span id="cb3-3"><a href="nhâp-môn-python.html#cb3-3" tabindex="-1"></a>    ..</span>
@@ -250,7 +251,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb4-2"><a href="nhâp-môn-python.html#cb4-2" tabindex="-1"></a>    answer <span class="op">=</span> a <span class="op">*</span> b <span class="op">//</span> findUCLN(a, b)</span>
 <span id="cb4-3"><a href="nhâp-môn-python.html#cb4-3" tabindex="-1"></a>    <span class="cf">return</span> answer</span></code></pre></div>
 </p>
-<p></detail></p>
+</details>
 <hr />
 </div>
 <div id="giai_thua" class="section level2 hasAnchor" number="1.3">
@@ -336,7 +337,32 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb8-5"><a href="nhâp-môn-python.html#cb8-5" tabindex="-1"></a>            answer.append(i)</span>
 <span id="cb8-6"><a href="nhâp-môn-python.html#cb8-6" tabindex="-1"></a>    <span class="cf">return</span> answer</span></code></pre></div>
 </p>
+</details>
 <hr />
+</div>
+<div id="parse_string_01" class="section level2 hasAnchor" number="1.5">
+<h2><span class="header-section-number">1.5</span> PARSE_STRING_01<a href="nhâp-môn-python.html#parse_string_01" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Mô tả</strong></p>
+<p>Viết một hàm nhận đầu vào là một danh sách các số nguyên dưới dạng chuỗi và đầu ra là một danh sách</p>
+<p><strong>Test case</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Ví dụ</th>
+<th align="left">Kết quả</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><code>parseString("[1, 2, 3, 4, 5]")</code></td>
+<td align="left">[1, 2, 3, 4, 5]</td>
+</tr>
+<tr class="even">
+<td align="left"><code>parseString("[]")</code></td>
+<td align="left">[]</td>
+</tr>
+</tbody>
+</table>
 
 </div>
 </div>
