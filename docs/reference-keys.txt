@@ -5,3 +5,6 @@ giai_thua
 chia_cho_5
 mô-ta
 lơi-giai
+quarterly-results
+by-product
+by-region
