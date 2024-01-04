@@ -2,8 +2,9 @@ bookdown::gitbook:
   css: [css/style.css, css/toc.css, css/highlight.css]
   config:
     toc:
-      toc_depth: 2
-      collapse: chapter
+      toc_depth: 1
+      toc_float: 
+        collapsed: FALSE
       scroll_highlight: yes
       before: |
         <li><a href="./">300 Bài code Data</a></li>
