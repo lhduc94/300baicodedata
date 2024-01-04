@@ -11,6 +11,7 @@ def findUCLN(a, b):
     return __
 ```
 
+Test case:
 |Ví dụ|Kết quả|
 |:--|:----------|
 |`findUCLN(50, 20)`|10|
@@ -18,6 +19,7 @@ def findUCLN(a, b):
 
 **Lưu ý**: không sử dụng hàm cho sẵn `math.gcd(a, b)` 
 
+---
 ---
 
 **Bài 1.2**
@@ -31,6 +33,7 @@ def findBCNN(a, b):
     return __
 ```
 
+Test case:
 |Ví dụ|Kết quả|
 |:--|:----------|
 |`findBCNN(8, 6)`|24|
@@ -38,6 +41,7 @@ def findBCNN(a, b):
 
 **Lưu ý**: không sử dụng hàm cho sẵn `math.lcm(a, b)` 
 
+---
 ---
 
 **Bài 1.3**
@@ -54,7 +58,6 @@ def findGT(n):
 ```
 
 Test case:
-
 |Ví dụ|Kết quả|
 |:--|:----------|
 |`findGT(5)`|120|
@@ -63,8 +66,7 @@ Test case:
 **Lưu ý**: không sử dụng hàm cho sẵn `math.factorial(a, b)` 
 
 ---
-
-
+---
 
 **Bài 1.4**
 
@@ -80,6 +82,7 @@ def find(a, b):
     return _
 ```
 
+Test case:
 |Ví dụ|Kết quả|
 |:--|:----------|
 |`find(1,40)`|[5, 10, 20, 25, 35, 40]|
