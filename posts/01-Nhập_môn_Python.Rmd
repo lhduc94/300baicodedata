@@ -53,6 +53,7 @@ def findGT(n):
     return _
 ```
 
+Test case:
 
 |Ví dụ|Kết quả|
 |:--|:----------|
