@@ -3,7 +3,7 @@ bookdown::gitbook:
   config:
     toc:
       toc_depth: 2
-      collapse: subsection
+      collapse: chapter
       toc_float:
         collapsed: true
 
