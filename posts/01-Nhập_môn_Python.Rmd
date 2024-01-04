@@ -21,7 +21,7 @@ Test case:
 **Lưu ý**: không sử dụng hàm cho sẵn `math.gcd(a, b)` 
 
 ---
----
+
 
 **Bài 1.2**
 
@@ -43,7 +43,6 @@ Test case:
 
 **Lưu ý**: không sử dụng hàm cho sẵn `math.lcm(a, b)` 
 
----
 ---
 
 **Bài 1.3**
@@ -68,7 +67,6 @@ Test case:
 
 **Lưu ý**: không sử dụng hàm cho sẵn `math.factorial(n)` 
 
----
 ---
 
 **Bài 1.4**
