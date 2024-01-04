@@ -132,7 +132,7 @@ def find(a, b):
 ```python
 def find(a, b):
     answer = []
-    for i in range(a, b+1):
+    for i in range(a, b + 1):
         if (i % 5 == 0) & (i % 3 != 0):
             answer.append(i)
     return answer
@@ -152,5 +152,20 @@ Viết một hàm nhận đầu vào là một danh sách các số n
 |Ví dụ|Kết quả|
 |:--|:----------|
 |`parseString("[1, 2, 3, 4, 5]")`|[1, 2, 3, 4, 5]|
-|`parseString("[]")`|[]|
+|`parseString("[-1, -2]")`|[-1, -2]|
+|`parseString("[0]")`|[0]|
 
+<details><summary><b>Lời giải</b></summary>
+<p>
+
+```python
+def parseString(l):
+    items = l.split(',')
+    answer = []
+    for i in range(len(items)):
+        item = items[i].replace('[','').replace(']','').strip() 
+        item = int(item)
+        answer.append(item)
+    return answer
+```
+</p></details>

@@ -332,7 +332,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="nhâp-môn-python.html#cb8-1" tabindex="-1"></a><span class="kw">def</span> find(a, b):</span>
 <span id="cb8-2"><a href="nhâp-môn-python.html#cb8-2" tabindex="-1"></a>    answer <span class="op">=</span> []</span>
-<span id="cb8-3"><a href="nhâp-môn-python.html#cb8-3" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(a, b<span class="op">+</span><span class="dv">1</span>):</span>
+<span id="cb8-3"><a href="nhâp-môn-python.html#cb8-3" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(a, b <span class="op">+</span> <span class="dv">1</span>):</span>
 <span id="cb8-4"><a href="nhâp-môn-python.html#cb8-4" tabindex="-1"></a>        <span class="cf">if</span> (i <span class="op">%</span> <span class="dv">5</span> <span class="op">==</span> <span class="dv">0</span>) <span class="op">&amp;</span> (i <span class="op">%</span> <span class="dv">3</span> <span class="op">!=</span> <span class="dv">0</span>):</span>
 <span id="cb8-5"><a href="nhâp-môn-python.html#cb8-5" tabindex="-1"></a>            answer.append(i)</span>
 <span id="cb8-6"><a href="nhâp-môn-python.html#cb8-6" tabindex="-1"></a>    <span class="cf">return</span> answer</span></code></pre></div>
@@ -358,11 +358,30 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <td align="left">[1, 2, 3, 4, 5]</td>
 </tr>
 <tr class="even">
-<td align="left"><code>parseString("[]")</code></td>
-<td align="left">[]</td>
+<td align="left"><code>parseString("[-1, -2]")</code></td>
+<td align="left">[-1, -2]</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>parseString("[0]")</code></td>
+<td align="left">[0]</td>
 </tr>
 </tbody>
 </table>
+<details>
+<summary>
+<b>Lời giải</b>
+</summary>
+<p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="nhâp-môn-python.html#cb9-1" tabindex="-1"></a><span class="kw">def</span> parseString(l):</span>
+<span id="cb9-2"><a href="nhâp-môn-python.html#cb9-2" tabindex="-1"></a>    items <span class="op">=</span> l.split(<span class="st">&#39;,&#39;</span>)</span>
+<span id="cb9-3"><a href="nhâp-môn-python.html#cb9-3" tabindex="-1"></a>    answer <span class="op">=</span> []</span>
+<span id="cb9-4"><a href="nhâp-môn-python.html#cb9-4" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(items)):</span>
+<span id="cb9-5"><a href="nhâp-môn-python.html#cb9-5" tabindex="-1"></a>        item <span class="op">=</span> items[i].replace(<span class="st">&#39;[&#39;</span>,<span class="st">&#39;&#39;</span>).replace(<span class="st">&#39;]&#39;</span>,<span class="st">&#39;&#39;</span>).strip() </span>
+<span id="cb9-6"><a href="nhâp-môn-python.html#cb9-6" tabindex="-1"></a>        item <span class="op">=</span> <span class="bu">int</span>(item)</span>
+<span id="cb9-7"><a href="nhâp-môn-python.html#cb9-7" tabindex="-1"></a>        answer.append(item)</span>
+<span id="cb9-8"><a href="nhâp-môn-python.html#cb9-8" tabindex="-1"></a>    <span class="cf">return</span> answer</span></code></pre></div>
+</p>
+</details>
 
 </div>
 </div>
