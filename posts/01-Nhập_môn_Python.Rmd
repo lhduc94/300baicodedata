@@ -6,8 +6,6 @@
 
 Viết hàm tìm Ước chung lớn nhất của hai số `a`, `b`
 
-<details><summary>CLICK ME</summary>
-<p>
 
 ```python
 def findUCLN(a, b):
@@ -16,7 +14,6 @@ def findUCLN(a, b):
     return __
 ```
 
-</p></details>
 
 Test case:
 
@@ -26,6 +23,18 @@ Test case:
 |`findUCLN(60, 520)`|20|
 
 **Lưu ý**: không sử dụng hàm cho sẵn `math.gcd(a, b)` 
+
+
+<details><summary><b>Lời giải</b></summary>
+<p>
+
+```python
+import math
+def findUCLN(a, b):
+    return math.gcd(a, b)
+```
+
+</p></details>
 
 ---
 
