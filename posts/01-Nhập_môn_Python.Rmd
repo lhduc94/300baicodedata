@@ -119,12 +119,16 @@ Test case:
 
 <details><summary><b>Lời giải</b></summary>
 <p>
+
+```python
 def find(a, b):
     answer = []
     for i in range(a, b+1):
         if (i % 5 == 0) & (i % 3 != 0):
             answer.append(i)
     return answer
+```
+
 </p>
 
 ---
