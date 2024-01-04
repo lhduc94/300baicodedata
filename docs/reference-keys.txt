@@ -1,2 +1,1 @@
-part-bai-tâp
 nhâp-môn-python
