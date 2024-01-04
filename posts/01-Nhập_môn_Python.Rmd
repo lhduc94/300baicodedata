@@ -12,6 +12,7 @@ def findUCLN(a, b):
 ```
 
 Test case:
+
 |Ví dụ|Kết quả|
 |:--|:----------|
 |`findUCLN(50, 20)`|10|
@@ -34,6 +35,7 @@ def findBCNN(a, b):
 ```
 
 Test case:
+
 |Ví dụ|Kết quả|
 |:--|:----------|
 |`findBCNN(8, 6)`|24|
@@ -58,6 +60,7 @@ def findGT(n):
 ```
 
 Test case:
+
 |Ví dụ|Kết quả|
 |:--|:----------|
 |`findGT(5)`|120|
@@ -83,6 +86,7 @@ def find(a, b):
 ```
 
 Test case:
+
 |Ví dụ|Kết quả|
 |:--|:----------|
 |`find(1,40)`|[5, 10, 20, 25, 35, 40]|
