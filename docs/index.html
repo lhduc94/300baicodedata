@@ -31,7 +31,7 @@
   
   
 
-
+<link rel="next" href="nhâp-môn-python.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -142,10 +142,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="./">300 Bài code Data</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path=""><a href="#lời-nói-đầu"><i class="fa fa-check"></i>Lời nói đầu</a>
-<ul>
-<li class="chapter" data-level="" data-path=""><a href="#part-bai-tâp"><i class="fa fa-check"></i># (PART) Bài tập</a></li>
-</ul></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Lời nói đầu</a></li>
+<li class="part"><span><b>I Bài tập</b></span></li>
+<li class="chapter" data-level="1" data-path="nhâp-môn-python.html"><a href="nhâp-môn-python.html"><i class="fa fa-check"></i><b>1</b> Nhập môn Python</a></li>
 <li class="divider"></li>
 <li><a href="" target="blank">Lê Huỳnh Đức</a></li>
 
@@ -172,135 +171,19 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p class="date"><em>2024-01-04</em></p>
 </div>
 <div id="lời-nói-đầu" class="section level1 unnumbered hasAnchor">
-<h1>Lời nói đầu<a href="#lời-nói-đầu" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-
-<div id="part-bai-tâp" class="section level2 unnumbered hasAnchor">
-<h2># (PART) Bài tập<a href="#part-bai-tâp" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>title: Hide all code blocks and show some initially
-output:
-html_document:
-code_folding: hide
-—
-# Nhập môn Python</p>
-<p><strong>Bài 1.1</strong></p>
-<p>Viết hàm tìm Ước chung lớn nhất của hai số <code>a</code>, <code>b</code></p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="kw">def</span> findUCLN(a, b):</span>
-<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a>    ..</span>
-<span id="cb1-3"><a href="#cb1-3" tabindex="-1"></a>    ..</span>
-<span id="cb1-4"><a href="#cb1-4" tabindex="-1"></a>    <span class="cf">return</span> __</span></code></pre></div>
-<p>Test case:</p>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Ví dụ</th>
-<th align="left">Kết quả</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><code>findUCLN(50, 20)</code></td>
-<td align="left">10</td>
-</tr>
-<tr class="even">
-<td align="left"><code>findUCLN(60, 520)</code></td>
-<td align="left">20</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Lưu ý</strong>: không sử dụng hàm cho sẵn <code>math.gcd(a, b)</code></p>
-<hr />
-<p><strong>Bài 1.2</strong></p>
-<p>Viết hàm tìm Bội chung nhỏ nhất của hai số <code>a</code>, <code>b</code></p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="kw">def</span> findBCNN(a, b):</span>
-<span id="cb2-2"><a href="#cb2-2" tabindex="-1"></a>    ..</span>
-<span id="cb2-3"><a href="#cb2-3" tabindex="-1"></a>    ..</span>
-<span id="cb2-4"><a href="#cb2-4" tabindex="-1"></a>    <span class="cf">return</span> __</span></code></pre></div>
-<p>Test case:</p>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Ví dụ</th>
-<th align="left">Kết quả</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><code>findBCNN(8, 6)</code></td>
-<td align="left">24</td>
-</tr>
-<tr class="even">
-<td align="left"><code>findBCNN(30, 520)</code></td>
-<td align="left">1560</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Lưu ý</strong>: không sử dụng hàm cho sẵn <code>math.lcm(a, b)</code></p>
-<hr />
-<p><strong>Bài 1.3</strong></p>
-<p>Viết hàm tìm Giai thừa của một số <code>n</code> theo công thức</p>
-<p><span class="math inline">\(n! = 1*2*3*..*(n-1)*n\)</span></p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="kw">def</span> findGT(n):</span>
-<span id="cb3-2"><a href="#cb3-2" tabindex="-1"></a>    ...</span>
-<span id="cb3-3"><a href="#cb3-3" tabindex="-1"></a>    <span class="cf">return</span> _</span></code></pre></div>
-<p>Test case:</p>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Ví dụ</th>
-<th align="left">Kết quả</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><code>findGT(5)</code></td>
-<td align="left">120</td>
-</tr>
-<tr class="even">
-<td align="left"><code>findGT(7)</code></td>
-<td align="left">5040</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Lưu ý</strong>: không sử dụng hàm cho sẵn <code>math.factorial(n)</code></p>
-<hr />
-<p><strong>Bài 1.4</strong></p>
-<p>Viết hàm tìm tất cả các số chia hết cho 5 nhưng không chia hết cho 15 nằm trong đoạn từ <code>[a, b]</code>. Kết quả trả về là một danh sách</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a><span class="kw">def</span> find(a, b):</span>
-<span id="cb4-2"><a href="#cb4-2" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(__, __):</span>
-<span id="cb4-3"><a href="#cb4-3" tabindex="-1"></a>        <span class="cf">if</span> __:</span>
-<span id="cb4-4"><a href="#cb4-4" tabindex="-1"></a>            ..</span>
-<span id="cb4-5"><a href="#cb4-5" tabindex="-1"></a>            ..</span>
-<span id="cb4-6"><a href="#cb4-6" tabindex="-1"></a>        ..</span>
-<span id="cb4-7"><a href="#cb4-7" tabindex="-1"></a>    <span class="cf">return</span> _</span></code></pre></div>
-<p>Test case:</p>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Ví dụ</th>
-<th align="left">Kết quả</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><code>find(1, 40)</code></td>
-<td align="left">[5, 10, 20, 25, 35, 40]</td>
-</tr>
-<tr class="even">
-<td align="left"><code>find(10, 100)</code></td>
-<td align="left">[10, 20, 25, 35, 40, 50, 55, 65, 70, 80, 85, 95, 100]</td>
-</tr>
-</tbody>
-</table>
+<h1>Lời nói đầu<a href="index.html#lời-nói-đầu" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 
 </div>
-</div>
+
+
+
             </section>
 
           </div>
         </div>
       </div>
 
-
+<a href="nhâp-môn-python.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -348,6 +231,9 @@ gitbook.start({
 "collapse": "subsection",
 "toc_depth": 2,
 "scroll_highlight": true
+},
+"html_document": {
+"code_folding": "hide"
 }
 });
 });

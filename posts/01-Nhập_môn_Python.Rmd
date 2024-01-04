@@ -1,10 +1,4 @@
 # (PART) Bài tập {-}
----
-title: Hide all code blocks and show some initially
-output:
-  html_document:
-    code_folding: hide
----
 # Nhập môn Python
 
 

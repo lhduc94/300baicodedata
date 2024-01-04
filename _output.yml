@@ -18,7 +18,8 @@ bookdown::gitbook:
     sharing:
       github: yes
       facebook: yes
-
+    html_document:
+      code_folding: hide
 bookdown::pdf_book:
   includes:
     in_header: latex/preamble.tex
