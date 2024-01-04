@@ -4,6 +4,9 @@ bookdown::gitbook:
     toc:
       toc_depth: 2
       collapse: subsection
+      toc_float:
+        collapsed: true
+
       scroll_highlight: yes
       before: |
         <li><a href="./">300 Bài code Data</a></li>
