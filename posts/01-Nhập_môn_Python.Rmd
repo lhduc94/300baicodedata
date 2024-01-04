@@ -96,7 +96,9 @@ def findGT(n):
 </p></details>
 ---
 
-## CHIA_CHO_5
+## CHIA_CHO_5 {.tabset}
+
+### Mô tả
 
 Viết hàm tìm tất cả các số chia hết cho 5 nhưng không chia hết cho 15 nằm trong đoạn từ `[a, b]`. Kết quả trả về là một danh sách
 
@@ -117,6 +119,7 @@ Test case:
 |`find(1, 40)`|[5, 10, 20, 25, 35, 40]|
 |`find(10, 100)`|[10, 20, 25, 35, 40, 50, 55, 65, 70, 80, 85, 95, 100]|
 
+### Lời giải
 <details><summary><b>Lời giải</b></summary>
 <p>
 
