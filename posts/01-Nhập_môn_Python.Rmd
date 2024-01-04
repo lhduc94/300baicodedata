@@ -1,3 +1,4 @@
+# (PART) Bài tập
 # Nhập môn Python
 
 
@@ -52,7 +53,6 @@ Viết hàm tìm Giai thừa của một số `n` theo công thức
 $n! = 1*2*3*..*(n-1)*n$
 
 ```python
-
 def findGT(n):
     ...
     return _
@@ -87,5 +87,5 @@ Test case:
 
 |Ví dụ|Kết quả|
 |:--|:----------|
-|`find(1,40)`|[5, 10, 20, 25, 35, 40]|
+|`find(1, 40)`|[5, 10, 20, 25, 35, 40]|
 |`find(10, 100)`|[10, 20, 25, 35, 40, 50, 55, 65, 70, 80, 85, 95, 100]|
