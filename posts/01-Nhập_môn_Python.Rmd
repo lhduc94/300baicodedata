@@ -2,7 +2,7 @@
 # Nhập môn Python
 
 
-**Bài 1.1**
+## UCLN
 
 Viết hàm tìm Ước chung lớn nhất của hai số `a`, `b`
 
@@ -39,7 +39,7 @@ def findUCLN(a, b):
 ---
 
 
-**Bài 1.2**
+## BCNN
 
 Viết hàm tìm Bội chung nhỏ nhất của hai số `a`, `b`
 
@@ -96,7 +96,7 @@ def findGT(n):
 </p></details>
 ---
 
-**Bài 1.4**
+## CHIA_CHO_5
 
 Viết hàm tìm tất cả các số chia hết cho 5 nhưng không chia hết cho 15 nằm trong đoạn từ `[a, b]`. Kết quả trả về là một danh sách
 
@@ -116,3 +116,15 @@ Test case:
 |:--|:----------|
 |`find(1, 40)`|[5, 10, 20, 25, 35, 40]|
 |`find(10, 100)`|[10, 20, 25, 35, 40, 50, 55, 65, 70, 80, 85, 95, 100]|
+
+<details><summary><b>Lời giải</b></summary>
+<p>
+def find(a, b):
+    answer = []
+    for i in range(a, b+1):
+        if (i % 5 == 0) & (i % 3 != 0):
+            answer.append(i)
+    return answer
+</p>
+
+---
